@@ -1,2 +1,2 @@
 # Responsive_Layouts-2
-Layouts designs using HTML,CSS
+KFC Layouts designs using HTML,CSS

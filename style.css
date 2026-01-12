@@ -1,0 +1,180 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+body{
+  background: linear-gradient(
+    120deg,
+    #ffffff 0%,
+    #ffffff 55%,
+    #b30000 55%,
+    #ff3b3b 100%
+  );
+  color:#1e1e1e;
+  overflow:hidden;
+}
+
+/* ================= NAVBAR ================= */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:30px 90px;
+}
+
+.logo{
+  width:85px;
+}
+
+.navbar a{
+  color:#1e1e1e;
+  text-decoration:none;
+  margin-left:30px;
+  font-size:14px;
+  font-weight:600;
+}
+
+.navbar a:hover{
+  color:#b30000;
+}
+
+/* ================= HERO ================= */
+.hero{
+  display:flex;
+  height:calc(100vh - 110px);
+  padding:60px 90px;
+  position:relative;
+}
+
+/* ================= LEFT ================= */
+.left{
+  width:45%;
+  padding-top:40px;
+}
+
+.left h1{
+  font-size:72px;
+  font-weight:300;
+  line-height:1.05;
+  margin-bottom:25px;
+}
+
+.left h1 span{
+  font-weight:800;
+  color:#b30000;
+}
+
+.left p{
+  max-width:440px;
+  font-size:15px;
+  line-height:1.9;
+  color:#444;
+  margin-bottom:40px;
+}
+
+/* ================= BUTTON ================= */
+.order{
+  padding:14px 42px;
+  border:none;
+  border-radius:40px;
+  background:#1e1e1e;
+  color:#fff;
+  font-weight:600;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.order:hover{
+  background:#b30000;
+  transform:translateY(-4px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.3);
+}
+
+/* ================= SOCIAL (VERTICAL) ================= */
+.social{
+  position:absolute;
+  left:40px;
+  bottom:80px;
+  display:flex;
+  flex-direction:column;
+  gap:22px;
+}
+
+.social i{
+  font-size:18px;
+  color:#1e1e1e;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.social i:hover{
+  color:#b30000;
+  transform:scale(1.2);
+}
+
+/* ================= RIGHT ================= */
+.right{
+  width:55%;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* IMAGE */
+.combo{
+  width:560px;
+  max-width:100%;
+  transform:translate(60px, -30px);
+  filter:drop-shadow(0 40px 50px rgba(0,0,0,0.4));
+  z-index:2;
+}
+
+/* ================= BADGE ================= */
+.fresh{
+  position:absolute;
+  top:120px;
+  right:0;
+  font-size:13px;
+  letter-spacing:2px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  color:#fff;
+}
+
+.fresh span{
+  width:45px;
+  height:2px;
+  background:#fff;
+}
+
+/* ================= ARROWS ================= */
+.arrows{
+  position:absolute;
+  bottom:40px;
+  right:0;
+  display:flex;
+  gap:14px;
+}
+
+.arrows div{
+  width:42px;
+  height:42px;
+  border-radius:50%;
+  border:1.5px solid #fff;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  cursor:pointer;
+  transition:0.3s;
+  color:#fff;
+}
+
+.arrows div:hover{
+  background:#fff;
+  color:#b30000;
+}
